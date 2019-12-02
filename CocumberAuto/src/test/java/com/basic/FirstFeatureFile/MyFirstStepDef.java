@@ -60,7 +60,7 @@ public class MyFirstStepDef {
 	
 	@Given("^User need to be on Facebook login page$")
 	public void user_need_to_be_on_Facebook_login_page (){
-						
+		System.out.println("Opening Url");				
 		//IE
 			//System.setProperty("webdriver.ie.driver", "C:\\IEDriverServer.exe");
 			//driver = new InternetExplorerDriver(); //IE
